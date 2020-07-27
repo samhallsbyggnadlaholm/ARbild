@@ -15,7 +15,12 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "torghallenLp"
+            "name" : "torghallenLp",
+            "translation" : [
+                11.90999984741211,
+                0,
+                -25.529998779296875
+            ]
         }
     ],
     "materials" : [
