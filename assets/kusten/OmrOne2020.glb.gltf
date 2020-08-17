@@ -1,0 +1,161 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "OmrOne2020Lp",
+            "translation" : [
+                2.8054003715515137,
+                5.345071315765381,
+                17.87513542175293
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "TIN.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "HeightMapOmrOne2020",
+            "uri" : "HeightMapOmrOne2020.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "HeightMapOmrOne2020",
+            "uri" : "HeightMapOmrOne2020-1.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 23096,
+            "max" : [
+                90.40868377685547,
+                5.65932035446167,
+                436.0680847167969
+            ],
+            "min" : [
+                -96.76180267333984,
+                -4.348443031311035,
+                -471.7904357910156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 23096,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 23096,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 23096,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 132864,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 277152,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 277152,
+            "byteOffset" : 277152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 369536,
+            "byteOffset" : 554304
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 184768,
+            "byteOffset" : 923840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 265728,
+            "byteOffset" : 1108608
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1374336,
+            "uri" : "OmrOne2020.glb.bin"
+        }
+    ]
+}
